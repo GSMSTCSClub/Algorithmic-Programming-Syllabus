@@ -1,0 +1,221 @@
+---
+title: "2023-2024 GSMST CS Club Algorithmic Programming Division Syllabus"
+format:
+  pdf:
+    toc-location: body
+    toc: true
+    toc-title: "Table of Contents"
+    toc-depth: 6
+    number-sections: true
+    colorlinks: true
+    author: 
+        - Anish Goyal (Chief of Competitions)
+        - Kevin Lee (Algorithmic Programming Head)
+        - Shivali Singh (Algorithmic Programming Assistant Head)
+    include-in-header: 
+        text: |
+            \usepackage{tikz}
+
+---
+{{< pagebreak >}}
+
+# Overview
+
+## About Us
+Welcome to the 2023-2024 syllabus for GSMST CS Club's Algorithmic Programming Division! Our mission is to nurture the next generation of algorithmic problem solvers at GSMST. We aim to offer a comprehensive learning experience that encompasses various aspects of algorithmic programming, equipping our members with the knowledge and skills needed to excel in solving complex computational challenges and thrive in competitive coding competitions.
+
+## What We Do
+1. **Weekly Meetings**
+2. **Weekly Problem Sets**
+3. **Regional and National Competitions**
+
+## Competitive Opportunities
+- Lockheed Martin's CodeQuest
+- HP CodeWars
+- American Computer Science League (ACSL)
+- TeamsCode
+- UC Berkeley CALICO
+- United States of America Computing Olympiad
+- Stanford ProCo
+- ...and much more!
+
+{{< pagebreak >}}
+
+# Weekly Meeting Dates
+## Semester I
+### Introduction to Algorithmic Programming (08/31/2023)
+#### Meeting Summary
+We will introduce the purpose and format of the Algorithmic programming seminars, briefly going over the major competitions that we will compete in during the school year. We will also introduce the concept of how programming competitions work, and the importance of algorithms in them. We could also bring up past achievements, like those from the LM CodeQuest competition last year. Afterwards, we will go over the various resources that students can use throughout the year. Keep in mind that the esteemed Dr. Hong will be teaching most, if not all, of the content-based seminars.
+
+#### Meeting At-A-Glance
+- Introducing the comps: CodeQuest, CodeWars, ACSL
+- Go over how competitions work and show some examples of problems
+- Past achievements
+- Go over resources : Websites, Books, LeetCode, *etc.*
+
+### Computer Number Systems (09/07/2023)
+#### Meeting Summary
+In this seminar, we will learn about computer number systems and how to convert between bases, doing practice in conversion and performing arithmetic in numbers of different bases. We will also mention usage in RGB coloring as well as the ASCII and binary values of characters. The students will then try to solve related ACSL problems to polish their number system knowledge and to familiarize with the ACSL format. If we have some time remaining, we could also go over basic bitwise theory.
+
+#### Meeting At-A-Glance
+- Go over [Computer Number Systems](http://www.categories.acsl.org/wiki/index.php?title=Computer_Number_Systems)
+- Review worksheets of number system problems from ACSL material
+
+### Recursive Functions (09/14/2023)
+#### Meeting Summary
+For this meeting, we will talk about the significance of recursive functions, using example problems to guide the lesson. The students will split up into groups and try to implement recursive functions to simple questions that the instructors will present. We will also learn about the ACSL pseudo-code and look at practice problems.
+
+#### Meeting At-A-Glance
+- Review [Recursive Functions](http://www.categories.acsl.org/wiki/index.php?title=Recursive_Functions)
+- Split into groups to solve simple recursion problem
+- [What Does This Program Do?](http://www.categories.acsl.org/wiki/index.php?title=What_Does_This_Program_Do%3F)
+
+### Greedy Algorithms (09/21/2023)
+#### Meeting Summary
+This seminar will be mainly about greedy algorithms. We will begin by introducing the main theory and a trivial example where a greedy algorithm is used. Then, we will use practice problems to guide the rest of the lesson. The students will also make their own LeetCode accounts and solve related questions on the platform near the end of the lesson.
+
+#### Meeting At-A-Glance
+- Talk about when the greedy algorithm should be used
+- Discuss how to know if the greedy algorithm is accurate
+- Make LeetCode accounts and solve problems
+
+{{< pagebreak >}}
+
+### Time and Space Complexity (09/28/2023)
+#### Meeting Summary
+We will introduce time and space complexity of algorithms, and why they are important, especially in competitive programming. We will talk about how to recognize the time and space complexities of an algorithm, and how the size of the input can give the direction of what the time complexity of the algorithm should be. We will also discuss comparison-based sorting algorithms, as well as the various searching algorithms.
+
+#### Meeting At-A-Glance
+- Analyzing time and space complexity
+- Implementing binary search manually and using standard library
+- Practicing questions on LeetCode
+
+### Miscellaneous Algorithms (10/12/2023)
+#### Meeting Summary
+For this seminar, we will discuss various miscellaneous algorithms like prefix sums, sliding window, and two pointer, directed especially at problems related to arrays or strings. We want them to have a deeper understanding in how these algorithms can simplify a lot of problems
+
+#### Meeting At-A-Glance
+- Prefix Sums/Sliding Window/Two Pointer algorithms
+
+### Dynamic Programming (10/26/2023)
+#### Meeting Summary
+This seminar will focus on dynamic programming due to its usage in a large range of intermediate and advanced programming problems. After studying the importance of recursion and memoization in dynamic programming, we will look at examples like knapsack and subsequence problems.
+
+#### Meeting At-A-Glance
+- Understand dynamic programming
+
+### Dynamic Programming Continued (11/02/2023)
+#### Meeting Summary
+We will continue the discussion on dynamic programming, and also further our understanding, like using multi-dimensional arrays in dynamic programming as well. For the remaining time, we will review the topics for the first ACSL contest.
+
+#### Meeting At-A-Glance
+- Continuation of dynamic programming
+- Review for ACSL contest
+
+### Prefix/Infix/Postfix Notation (11/09/2023)
+#### Meeting Summary
+We will look at prefix/infix/postfix notation, and how to systematically convert between 2 notations. We will discuss the significance of them in computer science, and will look at practice problems from ACSL regarding this topic.
+
+#### Meeting At-A-Glance
+- [Prefix/Infix/Postfix Notation](http://www.categories.acsl.org/wiki/index.php?title=Prefix/Infix/Postfix_Notation)
+
+### FSAs and Regular Expressions (11/16/2023)
+#### Meeting Summary
+In preparation for the second ACSL competition, we will look at FSAs and Regular Expressions. We will study the various syntax, and do practice with regex libraries on programming languages. The students will divide into groups and compete to come up with correct regex filters first.
+
+#### Meeting At-A-Glance
+- [FSAs, Regular Expressions](https://www.categories.acsl.org/wiki/index.php?title=FSAs_and_Regular_Expressions)
+- Students split into groups to compete and write regex filters for problems stated by officers
+
+### LISP (11/17/23)
+#### Meeting Summary
+For this seminar, we will review FSAs and Regular Expressions, and also study the basic syntax for LISP. We will practice with the study material from ACSL.
+
+#### Meeting At-A-Glance
+- [LISP](http://www.categories.acsl.org/wiki/index.php?title=LISP)
+
+## Semester II
+### Data Structures (01/18/2024)
+#### Meeting Summary
+As our first seminar in the second semester, we will study various data structures often used in programming competitions, like vectors, stacks, and queues. We will discuss the differences and advantages between those data structures, and look at practice problems where certain data structures are more applicable. We will also talk about the upcoming competitions in second semester, like CodeQuest andCodeWars Preparation
+
+#### Meeting At-A-Glance
+- Data Structures
+- Review of vectors/arrays, stacks, queues
+- Discussion on the dates and format of CodeQuest, CodeWars, CALICO, etc.
+
+### Bitwise Operations (01/25/2024)
+#### Meeting Summary
+We will study how bitwise operations are powerful in competitive programming to decrease the difficulty and time complexity of algorithms, and how many problems are bitwise operations in disguise. We will also talk about using the associativity and commutativity of bitwise operations to our advantage
+
+#### Meeting At-A-Glance
+- Bitwise Operations
+- Practice problems
+
+### Introduction to Graph Theory (02/01/2024)
+#### Meeting Summary
+In this seminar, we will introduce the basic terminology of graph theory, and how many problems can be transformed into graphs and solved with graph theory knowledge. We will talk about the differences between DFS and BFS, as well as the implementations.
+
+#### Meeting At-A-Glance
+- Basic graph theory terminology and techniques
+- DFS and/or BFS
+
+### Graph Theory With Applications (02/08/2024)
+#### Meeting Summary
+This meeting will be a continuation of the graph theory lesson. We will review the DFS and BFS, as well as extend those algorithms into Dijkstra’s algorithm. Most of the seminar will be spent on solving basic practice questions in graph theory.
+
+#### Meeting At-A-Glance
+- More graph theory
+- Review on DFS/BFS, Dijkstra’s algorithm
+
+### String Methods (02/22/2024)
+#### Meeting Summary
+With competitions on the horizon and due to how competitions like CodeQuest and CodeWars comprise of a lot of string-based problems, we will talk about the techniques used in string processing, like the utilization of hashmaps, algorithms like two-pointer and sliding window, and applications of dynamic programming to give students an idea on how to approach string-based problems. 
+
+#### Meeting At-A-Glance
+- String processing: Common algorithms/methods involving strings
+
+### CodeWars Preparation (02/29/2024)
+#### Meeting Summary
+We will review the logistics and teams for CodeWars, and solve practice problems from past CodeWars competitions.
+
+#### Meeting At-A-Glance
+- CodeWars Prep & Logistics
+
+### Logic Gates and Assembly (03/14/2024)
+#### Meeting Summary
+As the final seminar where we will be learning something new, we will finish off with learning about logic gates and basics of the Assembly language. We will have worksheets for students to practice logic gates, and students will write basic Assembly code to become familiar enough for the ACSL competitions.
+
+#### Meeting At-A-Glance
+- [Digital electronics](http://www.categories.acsl.org/wiki/index.php?title=Digital_Electronics) and [Assembly language](http://www.categories.acsl.org/wiki/index.php?title=Assembly_Language_Programming)
+
+### In-House Programming Competition (03/21/2024)
+#### Meeting Summary
+Instead of a traditional meeting, we will be hosting our in-house programming competition. More information regarding registration and teams will be released later.
+
+#### Meeting At-A-Glance
+- School-wide algorithmic programming competition
+
+{{< pagebreak >}}
+
+### Competition Prep (03/28/2024)
+#### Meeting Summary
+Due to upcoming competitions (UC Berkeley CALICO and TeamsCode), we will solve various past problems in those competitions and will review logistics.
+
+#### Meeting At-A-Glance
+- UC Berkeley CALICO Prep
+- TeamsCode Prep
+
+### Mini Practice Contest (04/11/2024)
+#### Meeting Summary
+For final practice before upcoming competitions, we will have a mini practice contest where students will compete with each other to solve various problems based on the topics they’ve learned throughout the year. This is supposed to be more of a fun event to allow students to become more familiar and de-stress.
+
+#### Meeting At-A-Glance
+- Fun practice competition for members to unwind
+
+### Final Competition Prep (04/18/2024-04/25/2024)
+#### Meetings Summarized
+We will be having final prep before the competitions (CodeQuest and/or Stanford ProCo), with Question and Answer sessions about the logistics of the competitions and algorithms that we’ve taught through the year. There will also be a list of practice competitions that the students can work through.
+
+#### Meetings At-A-Glance
+- Final prep before CodeQuest and Stanford ProCo (subject to actual competition dates/availability)
